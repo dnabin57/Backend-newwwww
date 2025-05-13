@@ -43,7 +43,8 @@ db.product = require("./models/product.model")(sequelize, DataTypes)
 //alter:false means any changes in code doesnt change the database. alter:true only changes the name of columns 
 //without deleting other data in the tables. if you need to delete whole data, add force:false within brackets
 // kei change garne bela ma matrei alter:true garne natra false nei chhoddine
-sequelize.sync({alter:true}).then(()=>{
+//IMPORTANT: kei change garesi alter lai true garnei parchha natra error auchha hai!!!
+sequelize.sync({alter:false}).then(()=>{
     console.log("Migrate vayo hai ta")
 })
 

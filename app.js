@@ -16,13 +16,12 @@ app.use(express.json())
 
 app.use("/api/", bookRoute)
 //yesle chai localhost:3000/api/bookRoute ma vako route concatenate handinchha
-
 //kei maagna ko lagi get
 //kunei manchhe le / ma kei request garyo vane response chai json format ma diyo
 //req, res ko thau ma aru words ni lekhna sakinchha
 // here "/" is a api because on hitting "/" by user, it gives response in json format
 
-
+//just for tracking changes in github
 
 
 
