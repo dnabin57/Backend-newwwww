@@ -1,0 +1,2 @@
+"# fullstack-nodejs"  initgit add .git commit -m "first commit"git branch -M maingit remote add origin https://github.com/dnabin57/fullstack-nodejs.gitgit push -u origin main
+"# fullstacknodejs"  initgit add .git commit -m "first commit"git branch -M maingit remote add origin https://github.com/dnabin57/fullstacknodejs.gitgit push -u origin main
