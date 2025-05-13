@@ -21,7 +21,6 @@ app.use("/api/", bookRoute)
 //req, res ko thau ma aru words ni lekhna sakinchha
 // here "/" is a api because on hitting "/" by user, it gives response in json format
 
-//just for tracking changes in githubss
 
 
 
